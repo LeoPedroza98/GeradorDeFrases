@@ -22,8 +22,8 @@ Para executar o projeto localmente, siga os passos abaixo:
    ```sh
     git clone git@github.com/LeoPedroza98/GeradorDeFrases
    ```
-   2. Instale as dependências:
-      ```sh
+2. Instale as dependências:
+   ```sh
     npm install
    ```
 3. Inicie o servidor de desenvolvimento:
