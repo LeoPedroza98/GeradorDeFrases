@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Gerador de Frases em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
 
-Currently, two official plugins are available:
+Este projeto é um **gerador de frases** desenvolvido com o framework React. O objetivo principal é fornecer uma ferramenta divertida e inspiradora que gera frases aleatórias para os usuários. Também serve como um projeto de estudo para aprimorar habilidades e conhecimentos em React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- **Geração de Frases Aleatórias**: Oferece a capacidade de gerar frases aleatórias com o toque de um botão.
+- **Interface Amigável**: Uma interface simples e intuitiva que torna fácil para os usuários gerar e compartilhar frases.
+- **Responsividade**: Design responsivo que se adapta bem a diferentes tamanhos de tela, proporcionando uma experiência agradável em dispositivos móveis e desktops.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Como Executar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para executar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```sh
+    git clone git@github.com/LeoPedroza98/GeradorDeFrases
+   ```
